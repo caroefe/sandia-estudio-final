@@ -1,0 +1,230 @@
+@import "../base/variables";
+@import "../base/mixin";
+
+//modificar los colores del nav
+
+/* ==========          MOBILE FIRST           ==============*/
+/**/
+/************************************************************/
+/*************    Comienzo HEADER Nav Bar    ****************/
+/*************           mobile              ****************/
+/************************************************************/
+
+header {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+
+    .navbar-toggler {
+        /*class bootstrap*/
+        background-color: $color-blanco;
+    }
+
+    .nav-links {
+        /*class bootstrap*/
+        text-align: center;
+    }
+
+    nav {
+        div {
+            a {
+                img {
+                    width: 80%;
+                }
+            }
+        }
+    }
+}
+
+nav {
+    background-color: $color-negro;
+    @include header;
+    padding: 3rem;
+
+}
+
+nav {
+    ul {
+        display: flex;
+        gap: 3rem;
+        justify-content: right;
+    }
+}
+
+nav {
+    ul {
+        li {
+            a {
+                color: $color-blanco;
+                text-decoration: none;
+                /*saca el subrayado*/
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+            }
+        }
+    }
+}
+
+nav {
+    ul {
+        li {
+            a:active {
+                color: $color-salmon;
+            }
+        }
+    }
+}
+
+/************************************************************/
+/*************      Fin HEADER Nav Bar     ******************/
+/*************           mobile            ******************/
+/************************************************************/
+/**/
+/**/
+/*********************************************************/
+/************     Comienzo HEADER Nav Bar    *************/
+/************            TABLET             *************/
+/*********************************************************/
+@media screen and (min-width:768px){
+    header {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        right: 0;
+
+        .navbar-toggler {
+            /*class bootstrap*/
+            background-color: $color-blanco;
+        }
+
+        .nav-links {
+            /*class bootstrap*/
+            text-align: center;
+        }
+
+        nav {
+            div {
+                a {
+                    img {
+                        width: 80%;
+                    }
+                }
+            }
+        }
+    }
+
+    nav {
+        background-color: $color-negro; //red
+        @include header;
+        padding: 3rem;
+
+    }
+
+    nav {
+        ul {
+            display: flex;
+            gap: 3rem;
+            justify-content: right;
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                a {
+                    color: $color-blanco;
+                    text-decoration: none;
+                    /*saca el subrayado*/
+                    margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
+                    transition: 0.4s;
+                }
+            }
+        }
+    }
+
+    nav {
+        ul {
+            li {
+                a:active {
+                    color: $color-salmon;
+                }
+            }
+        }
+    }
+}
+
+/***************************************************/
+/********     Fin     HEADER Nav Bar     ***********/
+/********            tablet              ***********/
+/***************************************************/
+/**/
+/**/
+/*********************************************************/
+/************     Comienzo HEADER Nav Bar    *************/
+/************            desktop 1024        *************/
+/*********************************************************/
+@media screen and (min-width:1024px){
+    header {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+
+    nav {
+        background-color: $color-negro; //green
+        @include header;
+        padding: 3rem;
+        ul {
+            li {
+                a {
+                    &:hover {
+                        color: $color-salmon;
+                    }
+
+                }
+            }
+        }
+    }
+
+
+
+}
+
+/***************************************************/
+/********     Fin     HEADER Nav Bar     ***********/
+/********            desktop  1024       ***********/
+/***************************************************/
+/**/
+/**/
+/*********************************************************/
+/************     Comienzo HEADER Nav Bar    *************/
+/************       desktop 1200             *************/
+/*********************************************************/
+
+@media screen and (min-width:1200px){
+    header {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        right: 0;
+    }
+
+    nav {
+        background-color: $color-negro; //rgb(128, 0, 122)
+        @include header;
+        padding: 3rem;
+
+    }
+}
+
+/***************************************************/
+/********     Fin     HEADER Nav Bar     ***********/
+/********            desktop 1200        ***********/
+/***************************************************/
