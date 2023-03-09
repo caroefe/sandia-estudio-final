@@ -24,10 +24,6 @@
                     opacity: 0;
                 }
 
-                70% {
-                    opacity: 0.5;
-                }
-
                 100% {
                     opacity: 1;
                 }
@@ -360,9 +356,8 @@
                     font-weight: bold;
                     font-size: $fuente-h2-desktops; //2rem
 
-                    .text-vision {
-                        
-                        margin: 0.9375rem;
+                    .text-vision {                        
+                        margin: 0.9375rem; //15px
                         text-align: left;
                     }
                 }
@@ -447,9 +442,9 @@
             
 
             .mision {
-                margin: 3rem 22rem;
-                padding-right:15rem; /*nuevo*/
-                padding-left:15rem; /*nuevo*/
+                margin-left: 30rem;
+                margin-right: 30rem;
+                
 
                 .h2-mision {
                     margin-top: 1rem;
@@ -482,7 +477,6 @@
         /* ::::::::::::: VISIÓN (index.html) (desktop 1200)) :::::::::::::::*/
         .container-vision {
             display: flex;
-
             display: grid;
             grid-template-columns: 3fr;
             grid-template-rows: 1fr;

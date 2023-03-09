@@ -123,6 +123,7 @@
 
             justify-items: center;
             align-items: center;
+            
 
             .imagen {
                 width: 100%;
@@ -207,7 +208,7 @@
 @media screen and (min-width:1024px) {
     .main-proyectos {
         .contenedor-imagenes {
-            padding: 1.25rem 1.25rem;
+            padding: 4rem 1.25rem;
             border-radius: 0.1875rem; //3px
             display: grid;
             grid-template-columns: 1fr 1fr;

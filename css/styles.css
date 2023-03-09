@@ -24,7 +24,10 @@ header {
   right: 0; }
   header .navbar-toggler {
     /*class bootstrap*/
-    background-color: #fff7f7; }
+    background-color: #0c0a0a;
+    color: #0c0a0a; }
+  header .navbar-toggler-icon {
+    filter: brightness(25); }
   header .nav-links {
     /*class bootstrap*/
     text-align: center; }
@@ -72,9 +75,10 @@ nav ul li a:active {
     right: 0; }
     header .navbar-toggler {
       /*class bootstrap*/
-      background-color: #fff7f7; }
-    header .nav-links {
-      /*class bootstrap*/
+      background-color: #0c0a0a;
+      color: #0c0a0a; }
+    header .navbar-toggler-icon {
+      filter: brightness(25);
       text-align: center; }
     header nav div a img {
       width: 80%; }
@@ -171,8 +175,6 @@ nav ul li a:active {
 @keyframes aparecer-h1 {
   0% {
     opacity: 0; }
-  70% {
-    opacity: 0.5; }
   100% {
     opacity: 1; } }
 
@@ -427,11 +429,8 @@ nav ul li a:active {
     background-color: #10e47a;
     text-align: left; }
     .container-mision .mision {
-      margin: 3rem 22rem;
-      padding-right: 15rem;
-      /*nuevo*/
-      padding-left: 15rem;
-      /*nuevo*/ }
+      margin-left: 30rem;
+      margin-right: 30rem; }
       .container-mision .mision .h2-mision {
         margin-top: 1rem;
         margin-left: 0.0625rem;
@@ -828,7 +827,7 @@ nav ul li a:active {
 /**/
 /**/
 /*************************************************************/
-/************         Fin SERVICIOS              *************/
+/************         Comienzo SERVICIOS         *************/
 /************    (servicios.html) desktop 1200   *************/
 /*************************************************************/
 @media screen and (min-width: 1200px) {
@@ -1028,7 +1027,7 @@ nav ul li a:active {
 /*****************************************************************/
 @media screen and (min-width: 1024px) {
   .main-proyectos .contenedor-imagenes {
-    padding: 1.25rem 1.25rem;
+    padding: 4rem 1.25rem;
     border-radius: 0.1875rem;
     display: grid;
     grid-template-columns: 1fr 1fr;

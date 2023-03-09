@@ -19,7 +19,12 @@ header {
 
     .navbar-toggler {
         /*class bootstrap*/
-        background-color: $color-blanco;
+        background-color: $color-negro;
+        color: $color-negro;
+    }
+
+    .navbar-toggler-icon{
+        filter: brightness(25);
     }
 
     .nav-links {
@@ -95,13 +100,15 @@ nav {
         top: 0;
         right: 0;
 
+
         .navbar-toggler {
             /*class bootstrap*/
-            background-color: $color-blanco;
+            background-color: $color-negro;
+            color: $color-negro;
         }
-
-        .nav-links {
-            /*class bootstrap*/
+    
+        .navbar-toggler-icon{
+            filter: brightness(25);
             text-align: center;
         }
 

@@ -12,6 +12,7 @@
 /**********************************************************/
 
 .footer {
+    
     @include flex-col-cen-cen;
     height: $altura-footer; //6.5rem
     background-color: $color-salmon;
@@ -64,7 +65,7 @@
         }
 
 
-        .texto-copyright {
+        .texto-copyright {            
             display: block;
             margin-top: 2rem;
             font-size: $fuente-p-t-ds; //0.9rem

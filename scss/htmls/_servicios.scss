@@ -90,8 +90,8 @@
                         @include flex-col-cen;
 
                         .service-text {
-                            margin-bottom: 1.875rem;
-                            padding: 0.9375rem;
+                            margin-bottom: 1.875rem; //30px
+                            padding: 0.9375rem; //15px
                             text-align: center;
 
                             .h3-servicios {
@@ -191,7 +191,7 @@
 /**/
 /**/
 /*************************************************************/
-/************         Fin SERVICIOS              *************/
+/************         Comienzo SERVICIOS         *************/
 /************    (servicios.html) desktop 1200   *************/
 /*************************************************************/
 @media screen and (min-width:1200px) {
