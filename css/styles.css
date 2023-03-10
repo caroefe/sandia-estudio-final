@@ -73,13 +73,6 @@ nav ul li a:active {
     left: 0;
     top: 0;
     right: 0; }
-    header .navbar-toggler {
-      /*class bootstrap*/
-      background-color: #0c0a0a;
-      color: #0c0a0a; }
-    header .navbar-toggler-icon {
-      filter: brightness(25);
-      text-align: center; }
     header nav div a img {
       width: 80%; }
   nav {

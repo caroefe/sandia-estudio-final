@@ -98,19 +98,8 @@ nav {
         z-index: 1;
         left: 0;
         top: 0;
-        right: 0;
+        right: 0;    
 
-
-        .navbar-toggler {
-            /*class bootstrap*/
-            background-color: $color-negro;
-            color: $color-negro;
-        }
-    
-        .navbar-toggler-icon{
-            filter: brightness(25);
-            text-align: center;
-        }
 
         nav {
             div {
