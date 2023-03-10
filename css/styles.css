@@ -197,23 +197,22 @@ nav ul li a:active {
     flex-direction: column; }
 
 /* ::::::::::::: VISIÓN (index.html) (mobile) :::::::::::::::*/
-.container-vision {
-  background-color: #fff7f7; }
-  .container-vision .vision {
-    margin: 0 1.5rem; }
-    .container-vision .vision .h2-vision {
-      align-items: center;
-      margin-top: 3rem;
-      margin-left: 0.0625rem;
-      font-size: 1.875rem;
-      font-weight: bold; }
-      .container-vision .vision .h2-vision .text-vision {
-        margin-top: 1rem;
-        text-align: left;
-        margin-bottom: 3rem; }
-  .container-vision .img-vision {
-    display: flex;
-    flex-direction: column; }
+.container-vision .vision {
+  margin: 0 1.5rem; }
+  .container-vision .vision .h2-vision {
+    align-items: center;
+    margin-top: 3rem;
+    margin-left: 0.0625rem;
+    font-size: 1.875rem;
+    font-weight: bold; }
+    .container-vision .vision .h2-vision .text-vision {
+      margin-top: 1rem;
+      text-align: left;
+      margin-bottom: 3rem; }
+
+.container-vision .img-vision {
+  display: flex;
+  flex-direction: column; }
 
 /* :::::::::   VALORES (mobile) (index.html)  ::::::::: */
 .container-valores {
